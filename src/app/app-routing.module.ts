@@ -2,8 +2,13 @@ import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CounterComponent } from './basic/counter/counter.component';
 import { CharizardComponent } from './basic/charizard/charizard.component';
+import { FatherComponent } from './basic/father/father.component';
 
 const routes: Routes = [
+  {
+    path: 'basic/father',
+    component: FatherComponent,
+  },
   {
     path: 'basic/counter',
     component: CounterComponent,
